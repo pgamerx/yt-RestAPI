@@ -20,7 +20,7 @@ router.use(express.json());
 router.use(cors());
 
 /** Routes */
-router.use("/hello", hello);
+router.use("/hello/", hello);
 
 /** Error handling */
 router.use((req, res, next) => {
